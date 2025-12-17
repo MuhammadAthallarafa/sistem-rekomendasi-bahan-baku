@@ -53,6 +53,7 @@ edit.ejs
 
 ## 👨‍🎓 Mata Kuliah
 Logika Pemrograman – Proyek Besar
+Dosen Pengampu: Yulizar Widiatama, Bach.Tech.Mgt(Hons), M.Eng
 - Muhammad Athallarafa Dityarifano Suwandi (2510312061)
 - Kayla Zora Aletha (2510312078)
 - Nabila Agni (2510312062)
