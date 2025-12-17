@@ -20,28 +20,28 @@ menggunakan metode Weighted Score.
 
 # Struktur Folder
 sistem-rekomendasi-bahan-baku/
+
+app.js
+package.json
+package-lock.json
+database.sqlite
 │
-├── app.js
-├── package.json
-├── package-lock.json
-├── database.sqlite
+config/
+database.js
 │
-├── config/
-│   └── database.js
+models/
+categoryModel.js
+materialModel.js
+material.js
+scoringService.js
 │
-├── models/
-│   ├── categoryModel.js
-│   ├── materialModel.js
-│   ├── material.js
-│   └── scoringService.js
-│
-├── views/
-│   ├── layout.ejs
-│   ├── home.ejs
-│   ├── form.ejs
-│   ├── result.ejs
-│   ├── list.ejs
-│   └── edit.ejs
+views/
+layout.ejs
+home.ejs
+form.ejs
+result.ejs
+list.ejs
+edit.ejs
 
 
 # Cara Menjalankan Aplikasi
