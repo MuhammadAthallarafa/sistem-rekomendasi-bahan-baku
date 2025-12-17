@@ -1,0 +1,21 @@
+<div class="container">
+  <h3>Hasil Rekomendasi Bahan Baku</h3>
+
+  <div class="result-card">
+    <p><strong>Nama Bahan:</strong> <%= material.name %></p>
+    <p><strong>Harga:</strong> <%= material.price %></p>
+    <p><strong>Kualitas:</strong> <%= material.quality %></p>
+    <p><strong>Stok:</strong> <%= material.stock %></p>
+
+    <hr>
+
+    <p class="score">
+      Skor Akhir: <%= material.score.toFixed(2) %>
+    </p>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <a href="/materials" class="btn-primary">Lihat Semua Data</a>
+    <a href="/form" class="btn-secondary">Input Data Baru</a>
+  </div>
+</div>

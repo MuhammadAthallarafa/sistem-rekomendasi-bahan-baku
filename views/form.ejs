@@ -1,0 +1,29 @@
+<div class="container">
+  <h3>Form Input Bahan Baku</h3>
+
+  <form action="/submit-material" method="POST">
+    
+    <div class="form-group">
+      <label>Nama Bahan Baku</label>
+      <input type="text" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label>Harga</label>
+      <input type="number" name="price" required>
+    </div>
+
+    <div class="form-group">
+      <label>Kualitas (1 - 10)</label>
+      <input type="number" name="quality" min="1" max="10" required>
+    </div>
+
+    <div class="form-group">
+      <label>Stok</label>
+      <input type="number" name="stock" required>
+    </div>
+
+    <button type="submit" class="btn-primary">Submit</button>
+    <a href="/" class="btn-secondary">Batal</a>
+  </form>
+</div>
